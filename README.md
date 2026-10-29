@@ -1,10 +1,10 @@
-# 🛠️ Ordem de Serviço API
+#Ordem de Serviço API
 
 > API RESTful desenvolvida em Java e Spring Boot para gerenciamento e abertura de ordens de serviço (chamados técnicos) de Hardware e Software.
 
 ---
 
-## 📌 Sobre o Projeto
+#Sobre o Projeto
 
 Este projeto consiste em um sistema backend de **Gestão de Chamados/Ordens de Serviço**. Ele foi desenvolvido com o objetivo de demonstrar boas práticas de arquitetura de software, padrão DTO, polimorfismo, e tratamento global de exceções.
 
@@ -12,7 +12,7 @@ A API permite o cadastro de clientes e técnicos, além da abertura e consulta d
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+#Tecnologias Utilizadas
 
 - **Java 17+**
 - **Spring Boot 3.x**
@@ -24,7 +24,7 @@ A API permite o cadastro de clientes e técnicos, além da abertura e consulta d
 
 ---
 
-## 🏗️ Arquitetura e Padrões de Projeto
+#Arquitetura e Padrões de Projeto
 
 O projeto adota o padrão de arquitetura em camadas (**MVC**):
 
@@ -37,14 +37,14 @@ O projeto adota o padrão de arquitetura em camadas (**MVC**):
 
 ---
 
-## 📋 Endpoints da API
+#Endpoints da API
 
-### 👤 Clientes (`/api/clientes`)
+Clientes (`/api/clientes`)
 - `POST /api/clientes` - Cadastra um novo cliente.
 - `GET /api/clientes` - Lista todos os clientes cadastrados.
 - `GET /api/clientes/{id}` - Busca cliente por ID.
 
-### 🛠️ Chamados (`/api/chamados`)
+Chamados (`/api/chamados`)
 - `POST /api/chamados/hardware` - Abre um chamado do tipo Hardware.
 - `POST /api/chamados/software` - Abre um chamado do tipo Software.
 - `GET /api/chamados` - Lista todos os chamados abertos.
@@ -52,15 +52,15 @@ O projeto adota o padrão de arquitetura em camadas (**MVC**):
 
 ---
 
-## ⚙️ Como Executar o Projeto Localmente
+#Como Executar o Projeto Localmente
 
-### Pré-requisitos
+Pré-requisitos
 - **Java JDK 17** ou superior instalado.
 - **Git** instalado.
 - **IDE** de sua preferência (IntelliJ IDEA, Eclipse, VS Code).
 
-### Passo a Passo
+#Passo a Passo
 
-1. **Clone o repositório:**
+1. Clone o repositório:
    ```bash
    git clone [https://github.com/Alax-Costa/ordem-servico-api.git](https://github.com/Alax-Costa/ordem-servico-api.git)
